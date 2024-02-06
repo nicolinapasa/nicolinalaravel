@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/contacts', function () {
+    $np = "Pașa Nicolina";
+    return view('contacts', ['np' => $np]);
+});
+
+Route::get('/about', function () {
+    $groups = ['W-2042', 'W-2041', 'P-2042', 'P-2041'];
+    return view('about', ['groups' => $groups]);
+});
