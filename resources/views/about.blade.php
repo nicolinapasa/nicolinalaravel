@@ -26,14 +26,13 @@
           </ul>
         </div>
       </nav>
-
+      <h1>Bun brat, hai davai</h1>
+      <img width="600px" height="500px" src="https://www.sauto.md/media/images/upload/car/5531/6512/10031/med/5ade93fd72.webp" alt="">
       <section class="container-fluid p-5">
         <ul class="list-group list-group-horizontal">
-            @foreach($groups as $group){
-                !! "<li class='list-group-item'>$group</li>"!!
-            }  
+            @foreach($groups as $group)
+                {{$group}}
             @endforeach
-
         </ul>
         </section>
 </body>
