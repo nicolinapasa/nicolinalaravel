@@ -29,9 +29,9 @@
 
       <section class="container-fluid p-5">
         <ul class="list-group list-group-horizontal">
-            @foreach($groups as $group){
-                !! "<li class='list-group-item'>$group</li>"!!
-            }  
+            @foreach($groups as $group)
+                <li class='list-group-item'>{{$group}}</li>
+            
             @endforeach
 
         </ul>
