@@ -31,7 +31,7 @@
       <section class="container-fluid p-5">
         <ul class="list-group list-group-horizontal">
             @foreach($groups as $group)
-                {{$group}}
+                <li>{{$group}}</li>
             @endforeach
         </ul>
         </section>
