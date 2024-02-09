@@ -10,22 +10,24 @@
 <body>
     <nav class="navbar bg-light navbar-expand-sm">
         <div class="container-fluid">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-                <h5><a class="nav-link active" href="#">Home</a></h5>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contacts">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link active" href="#">Home</a>
+                    </h5>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contacts">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
     <section class="container-fluid p-5 text-center">
         <h1>Pașa Nicolina</h1>
         <h2>CEITI W-2042</h2>
