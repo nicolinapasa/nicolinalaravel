@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,16 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'home'])->name('home');
 
-Route::get('/contacts', function () {
-    $np = "Pașa Nicolina";
-    return view('contacts', ['np' => $np]);
-});
+Route::get('/contacts', [HomeController::class, 'contacts'])->name('contacts');
 
-Route::get('/about', function () {
-    $groups = ['W-2042', 'W-2041', 'P-2042', 'P-2041'];
-    return view('about', ['groups' => $groups]);
-});
+Route::get('/about',[HomeController::class, 'about'])->name('about');
